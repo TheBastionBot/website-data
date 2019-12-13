@@ -1,0 +1,12 @@
+---
+- name: Patreon
+  description: You can pledge for The Bastion Bot Project on Patreon
+  link: https://patreon.com/bastionbot
+
+- name: PayPal
+  description: You can send one-off donations via PayPal
+  link: https://paypal.me/snkrsnkampa
+
+- name: Cryptocurrencies
+  description: You can send one-off donations with Cryptocurrencies
+  link: https://commerce.coinbase.com/checkout/ff8b08ec-5d39-4910-89cd-8267cd5c3c54
