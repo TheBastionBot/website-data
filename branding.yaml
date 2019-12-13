@@ -1,4 +1,10 @@
 ---
+logos:
+  - image: https://resources.bastionbot.org/logos/Bastion_Logotype_CD.png
+    dark: true
+  - image: https://resources.bastionbot.org/logos/Bastion_Logotype_CL.png
+    dark: false
+
 colors:
   - name: Iris
     hex: "#40C4FB"
