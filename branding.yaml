@@ -1,0 +1,20 @@
+---
+colors:
+  - name: Iris
+    hex: "#40C4FB"
+    dark: false
+  - name: Pupil
+    hex: "#62D9FB"
+    dark: false
+  - name: Light
+    hex: "#F5F5F5"
+    dark: false
+  - name: Somewhat dark
+    hex: "#23272A"
+    dark: true
+  - name: Dark, but not black
+    hex: "#0C0E11"
+    dark: true
+  - name: Not so black
+    hex: "#070A0C"
+    dark: true
