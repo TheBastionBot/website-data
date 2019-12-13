@@ -1,0 +1,63 @@
+---
+- question: What is a guild?
+  answer: A Discord Guild is what we call a Discord Server, that's all.
+  image:
+
+- question: How do I get an ID (User ID, Role ID, Channel ID, Guild ID, etc.)?
+  answer: |
+    Turn on Developer Mode in the Discord client (User Settings -> Appearance).
+    For getting User ID/Channel ID/Guild ID, Right-Click on the User/Channel/Guild and select Copy ID.
+    For Role IDs, you need to Right-Click on the role mention (@someRole) and select Copy ID.
+  image:
+
+- question: I have an issue with using/installing/setting up the Bastion Bot, where can I get help?
+  answer: If you ever face any problems with the Bastion Bot or you don't understard something, or if you need any kind of help with it, just head over to the [#help] channel in [Bastion HQ](https://discord.gg/fzx8fkt), and ask us. Our Support Staffs (and everyone over there) will be more than willing to help you.
+  image:
+
+- question: I found a bug with the Bastion Bot, how/where can I report it?
+  answer: First, see if it's already reported in [GitHub Issues](https://github.com/TheBastionBot/Bastion/issues). If it's not reported, [create a new issue in GitHub](https://github.com/TheBastionBot/Bastion/issues/new) with proper examples and screenshots (if necessary) and as much detail as necessary on how we can replicate it.<br>We will fix the issue as soon as possible. And you receive a huge thanks from us along with some Bastion Currencies.
+  image:
+
+- question: I have a suggestion for the Bastion Bot, how can I let you know?
+  answer: First, see if it's already reported in [GitHub Issues](https://github.com/TheBastionBot/Bastion/issues). If it's not reported, [create a new issue in GitHub](https://github.com/TheBastionBot/Bastion/issues/new) with proper examples and screenshots (if necessary) and as much detail as necessary that will help us understand your suggestion.<br>We'll be glad to implement that if that's something that is going to help everyone and is possible to do. And you receive a huge thanks from us along with some Bastion Currencies.
+  image:
+
+- question: The installer/updater stops with a <code>Killed</code> error or Bastion stops with a <code>Killed</code> error in the logs, what do I do?
+  answer: This error happens when on low memory (e.g. 512 MB) Computers/Servers that don't have a swap file or if the swap size is not enough. But don't worry, it's not a big deal. It can be fixed easily by adding/updating the swap file (I recommend the size of swap file to be double the size of your RAM). If you don't know how to do that, follow the steps given [here](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-12-04?comment=551).
+  image:
+
+- question: How do I see the Bastion Bot's log in Linux/macOS?
+  answer: "Inside the `Bastion` directory, run: `./bastion.sh --show`"
+  image:
+
+- question: How do I add more than one Owner to Bastion?
+  answer: Open the `credentials.json` file inside the `Bastion/settings/` directory, with a text editor.<br>Add another owner ID in the owner ID section below your ID.<br>Save & close the file.
+  image:
+
+- question: How do I know how to use a specific command?
+  answer: To get help on the usage & examples of a any command, run the help <command> command (using the appropriate prefix of Bastion in the Discord Server) in any Discord Server where the Bastion Bot is present or go to the commands section in this website.
+  image:
+
+- question: What are the variables that I can use in greeting message, farewell message, triggers' responses, etc.?
+  answer: You can use the following variables:<p><br>`{prefix}` - The default prefix of Bastion</p><p><br>`{server}` - The name of the server</p><p><br>`{server.id}` - The ID of the server</p><p><br>`{server.region}` - The region of the server</p><p><br>`{server.icon}` - The icon of the server</p><p><br>`{server.prefix}` - The custom prefix of Bastion in the server</p><p><br>`{server.channels.size}` - Total number of channels in the server</p><p><br>`{server.channels.text.size}` - Total number of text channels in the server</p><p><br>`{server.channels.voice.size}` - Total number of voice channels in the server</p><p><br>`{server.roles.size}` - Total number of roles in the server</p><p><br>`{server.members.size}` - Total number of members in the server</p><p><br>`{server.users.size}` - Total number of (cached) humans in the server</p><p><br>`{server.bots.size}` - Total number of (cached) bots in the server</p><p><br>`{author}` - Mention of the user who invoked this message</p><p><br>`{author.id}` - ID of the user who invoked this message</p><p><br>`{author.tag}` - Tag of the user who invoked this message</p><p><br>`{author.name}` - Username of the user who invoked this message</p><p><br>`{author.nick}` - Nick name of the user who invoked this message</p><p><br>`{author.avatar}` - Avatar of the user who invoked this message</p><p><br>`{author.roles.size}` - Total number of roles of the user who invoked this message</p><p><br>`{bot}` - Mention of Bastion</p><p><br>`{bot.id}` - ID of Bastion</p><p><br>`{bot.tag}` - Tag of Bastion</p><p><br>`{bot.name}` - Username of Bastion</p><p><br>`{bot.nick}` - Nick name of Bastion</p><p><br>`{bot.avatar}` - Avatar of Bastion</p><p><br>`{bot.roles.size}` - Total number of roles of Bastion</p>
+  image:
+
+- question: What can I do with Bastion currency?
+  answer: You can sell & buy stuff from the shops (gift shop, server shop or role shop), you can also gamble in the games in the gambling module. You can also give your Bastion Currency to your friends. And many new features are being added every day to Bastion, so there might be many more ways you can use your currency in future releases of Bastion.
+  image:
+
+- question: How can I get Bastion Currency?
+  answer: You get currency when you level up in the server. You can also get more currency when you win in gambling games. There's also a weekly currency giveaway in Bastion HQ where you can get huge amount of Bastion Currencies. But the two best ways to get more currencies is to use the `claim` or `daily` command every day and if you're a server owner, you can sell items/roles in your server and when users buy it, you'll get 90% of the profit.
+  image:
+
+- question: How can I get more Bastion Currency with the claim or daily command?
+  answer: You can normally get upto 100 Bastion Currencies when you use the `claim` or `daily` command. But you can get 200% more Bastion currencies if you use the `claim` or `daily` command in [Bastion HQ](https://discord.gg/fzx8fkt). Also, if you've ever donated us on PayPal or if you've ever been our Patron, you'll get another 100 Bastion Currencies added to your daily reward. And if you're currently our Patron, 500 Bastion Currencies will be added instead.
+  image:
+
+- question: Music commands are not working in the Public Bastion Bot?
+  answer: Music is disabled in the Public Bastion Bot due to high hosting and maintenance costs for serving music to a huge number of Discord Servers. If you want to use the music module, try [hosting Bastion](https://docs.bastionbot.org/) on your computer/server.
+  image:
+
+- question: Why is my music laggy?
+  answer: That can be due to various reasons. Maybe your computer/server, where you are hosting the Bastion Bot, has connection/bandwidth issues. Or latency from your computer/server to Discord is high. [Try changing your Discord Voice Server region](https://support.discordapp.com/hc/en-us/articles/216661717-How-do-I-change-my-Voice-Server-Region-) to a location near your computer/server.
+  image:
