@@ -55,7 +55,7 @@
   image:
 
 - question: Music commands are not working in the Public Bastion Bot?
-  answer: Music is disabled in the Public Bastion Bot due to high hosting and maintenance costs for serving music to a huge number of Discord Servers. If you want to use the music module, try [hosting Bastion](https://docs.bastionbot.org/) on your computer/server.
+  answer: Music is disabled in the Public Bastion Bot due to high hosting and maintenance costs for serving music to a huge number of Discord Servers. If you want to use the music module, try [hosting Bastion](https://bastion.gitbook.io) on your computer/server.
   image:
 
 - question: Why is my music laggy?
